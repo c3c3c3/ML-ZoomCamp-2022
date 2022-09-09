@@ -23,7 +23,7 @@ print(freq_make.Make)
 
 # Q4. Number of uniaque Audi
 freq_audi=data[data.Make=='Audi'].Model.nunique()
-#print(freq_audi)
+print(freq_audi)
 
 # There are 12 unique Audi  models.
 
