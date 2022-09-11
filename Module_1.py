@@ -42,9 +42,3 @@ cyl_median_new=data['Engine Cylinders'].fillna(cyl_mode).median()
 print("The new median is: {}".format(cyl_median_new))
 
 # The median is the same.
-
-# Q7.
-data_lotus=data[data.Make=='Honda']
-print(data_lotus)
-
-# ??????
